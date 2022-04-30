@@ -1,0 +1,218 @@
+/*fonts*/
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+    url('../fonts/Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Inter-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+    url('../fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('../fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/Inter-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* body */
+body {font-family: 'Inter';margin: 0px;overflow-x: hidden;color: #f0f0f0;background: #353637;}
+/*main page*/
+.main-page {padding: 46px 100px;}
+.logo {margin: 0 0 20px;}
+.timer {max-width: 1242px;height: 323px;background: #1B1B1B;border: 2.5px solid #FFFFFF;box-sizing: border-box;border-radius: 100px;margin: 0 0 60px;}
+.connect-button {background: #1B1B1B;border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 100px;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 35px;line-height: 42px;text-align: center;padding: 12px 59px;color: #fff;text-decoration: none;display: inline-block;position: relative;}
+.connect-button:hover {color: #fff !important;}
+#countdown ul {padding: 0;margin: 0;}
+#countdown ul li {display: inline-block;font-size: 1em;list-style-type: none;padding: 1em;text-transform: uppercase;}
+#countdown ul li span {display: block;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 128px;line-height: 166px;display: flex;align-items: center;text-align: center;color: #FFFFFF;}
+.timer-tag {display: block;font-family: 'Inter';font-style: normal;font-weight: 600;font-size: 60px;line-height: 73px;text-align: center;color: #BABABA;}
+.connect-wallet-text span {display: block;font-family: 'Inter';font-style: italic;font-weight: 600;font-size: 35px;line-height: 42px;text-align: center;color: #D3D3D3;margin: 0 0 20px;}
+.wallet-address {display: inline-block;color: #8ce67e;}
+/*main banner content*/
+.placeholder-image {background: #2C2C2C;border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 30px;padding: 10px;height: 552px;}
+.placeholder-image img {width: 100%;height: 100%; border-radius: 25px; object-fit: fill;}
+.change-content-wrapper {background: #2C2C2C;border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 30px;padding: 10px;height: 552px;}
+.change-content-wrapper .head {display: block;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 55px;line-height: 67px;text-align: center;color: #FFFFFF;}
+.change-content-wrapper .para {display: block;font-family: 'Inter';font-style: normal;font-weight: 600;font-size: 20px;line-height: 24px;text-align: center;color: #BABABA;}
+.change-content-wrapper .c-button{display: block;}
+.change-content-wrapper .c-data{margin: 0 0 40px;}
+.connect-button{cursor: pointer;}
+/*scond div*/
+.second-span{display: block;font-family: 'Inter';font-style: italic;font-weight: 600;font-size: 30px;line-height: 36px;text-align: center;color: #D3D3D3;margin: 0 0 20px;}
+.second-div .red{color: red;}
+.second-div .green{color: #8ce67e;}
+/*fourth div*/
+.fourth-div .div-head{font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 35px;line-height: 42px;text-align: center;color: #FFFFFF;display: block;border-bottom: 2px solid #fff;padding: 0 0 20px;margin: 0 0 30px;}
+.fourth-div.text-center { padding: 0 30px; }
+.price-tag{font-family: 'Inter';font-style: italic;font-weight: 600;font-size: 17.5px;line-height: 21px;text-align: center;color: #C9C9C9;display: block; margin: 0 0 10px;}
+.price-circle{background: #353535;border: 1.5px solid #FFFFFF;box-sizing: border-box;border-radius: 30px; padding: 7px 15px; min-width: 100px; display: block;}
+.price-flex-wrapper{margin: 0 0 30px;}
+.amount-box{padding: 20px 25px;background: #1B1B1B;border: 1.5px solid #FFFFFF;box-sizing: border-box;border-radius: 30px; width:100%;display: flex; align-items: center; justify-content: space-between; }
+.amount-tag{font-family: 'Inter';font-style: normal;font-weight: 600;font-size: 30px;line-height: 36px;color: #FFFFFF;}
+.amount-tag-max{background: #FFFFFF;border-radius: 30px;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 25px;line-height: 30px;color: #1B1B1B;padding: 5px 5px;}
+.amount-input{font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 40px;line-height: 48px;color: #FFFFFF; margin: 0 10px;}
+.amount-icon{width: 46px; height: 46px; display: flex; justify-content: center; align-items: center; border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 30px;font-family: 'Inter';font-style: normal;font-weight: 600;font-size: 50px;line-height: 61px;display: flex;align-items: center;color: #FFFFFF;}
+.amount-tag2{font-family: 'Inter';font-style: normal;font-weight: 600;font-size: 35px;line-height: 42px;color: #FFFFFF;}
+.amount-small-text{font-family: 'Inter';font-style: normal;font-weight: 600;font-size: 20px;line-height: 24px;color: #FFFFFF;}
+.mint-button{background: #FFFFFF;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);border-radius: 30px;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 32px;line-height: 39px;color: #2C2C2C;padding: 9px 38px;}
+.margin-bot{ margin: 0 0 30px;}
+/*fifth div*/
+.fifth-margin{margin: 0 0 120px !important;}
+.fifth-div-tag{font-family: 'Inter';font-style: normal;font-weight: 500;font-size: 35px;line-height: 42px;text-align: center;color: #FFFFFF;display: block;}
+/*sixth div*/
+.sixth-tag{font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 35px;line-height: 30px;text-align: center;color: #FFFFFF;display: block;}
+.sixth-small-tag{font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 30px;line-height: 30px;text-align: center;color: #FFFFFF; display: block;}
+.fourth-div .red{color: red;}
+.fourth-div .green{color: #8ce67e;}
+.sixth-url{font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 20px;line-height: 30px;text-align: center;color: #FFFFFF;display: block;color: cornflowerblue;}
+.sixth-div{margin-top: 70px;}
+/*seventh div*/
+.back-mint-button {background: #1B1B1B;border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 100px;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 25px;line-height: 30px;text-align: center;color: #FFFFFF;padding: 11px 44px;}
+/*second page control*/
+.form-control {background-color: #2C2C2C;border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 30px;height: 55px;width: 250px;padding: 0px 30px;color: #fff;}
+.form-control:focus {color: #fff !important;background-color: #2C2C2C !important;border-color: #fff !important;outline: 0;box-shadow:none !important;}
+.connect-button-1 {background: #1B1B1B;border: 2px solid #FFFFFF;box-sizing: border-box;border-radius: 100px;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 18px;line-height: 42px;text-align: center;padding: 3px 45px;color: #fff;text-decoration: none;display: inline-block;position: relative;height: 55px;}
+.connect-button-1:hover {color: #fff !important;}
+/*input*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*responsiveness*/
+@media screen and (max-width: 1399px) {
+  #countdown ul li span {font-size: 94px;line-height: 125px;}
+  .timer {height: 246px;}
+  .timer-tag {font-size: 49px;line-height: 50px;}
+  .connect-wallet-text span {font-size: 29px;line-height: 33px;}
+  .logo {margin: 0 auto 20px;width: 35%;}
+  .connect-button {font-size: 28px;}
+  /*sixth div*/
+  .sixth-small-tag {font-size: 26px;}
+}
+@media screen and (max-width: 1199px) {
+  #countdown ul li span {font-size: 75px;line-height: 103px;}
+  .timer {height: 224px;margin: 0px 0 40px;}
+  /*second page*/
+  .change-content-wrapper .head {font-size: 50px;}
+  .placeholder-image {height: 500px;}
+  .change-content-wrapper {height: 500px;}
+  .amount-tag2 {font-size: 29px;}
+  .margin-bot { margin: 0 0 14px;}
+  /*sixth div*/
+  .sixth-tag {font-size: 32px;}
+  .sixth-small-tag {font-size: 22px;}
+  .sixth-div {margin-top: 55px;}
+  /*seventh div*/
+  .back-mint-button {font-size: 20px;padding: 11px 44px;}
+}
+@media screen and (max-width: 991px) {
+  #countdown ul li{padding: unset;}
+  #countdown ul li span {font-size: 55px;line-height: unset;}
+  .timer-tag {font-size: 15px;line-height: unset;}
+  .connect-button {font-size: 20px;padding: 10px 50px;}
+  .timer {width: 100%;height: unset;padding: 20px 0px;}
+  .main-page {padding: 10px;}
+  .logo {width: 50%;}
+  .placeholder-image {margin: 0 0 30px;}
+  .change-content-wrapper{min-height: 500px; height: auto;}
+  /*fourth div*/
+  .fourth-div.text-center {padding: 0px 9px;}
+  .amount-tag {font-size: 26px;line-height: 30px;}
+  .amount-tag2 {font-size: 30px;line-height: 37px;}
+}
+@media screen and (max-width: 767px) {
+  #countdown ul li{padding: unset;}
+  #countdown ul li span {font-size: 55px;line-height: unset;}
+  .timer-tag {font-size: 15px;line-height: unset;}
+  .connect-button {font-size: 20px;padding: 10px 50px;}
+  .timer {width: 100%;height: unset;padding: 20px 0px;}
+  .main-page {padding: 10px;}
+  .connect-wallet-text span {font-size: 20px;line-height: 24px;}
+}
+@media screen and (max-width: 575px) {
+  #countdown ul li{padding: unset;}
+  #countdown ul li span {font-size: 35px;line-height: unset;}
+  .timer-tag {font-size: 15px;line-height: unset;}
+  .timer {width: 100%;height: unset;}
+  .main-page {padding: 10px;}
+  .connect-wallet-text span{font-size: 18px;line-height: 24px;}
+  .connect-button {font-size: 20px;padding: 7px 40px;}
+  /*fifth div*/
+  .fifth-div-tag {font-size: 30px;}
+  /*seventh div*/
+  .back-mint-button {font-size: 18px;padding: 7px 37px;}
+}
+@media screen and (max-width: 479px) {
+  .logo {margin: 0 auto 20px;width: 65%;}
+  /*second page*/
+  .change-content-wrapper .head {font-size: 36px;}
+  .placeholder-image {height: 350px;}
+  .change-content-wrapper {height:auto; min-height: 350px;}
+  .second-span {font-size: 15px;}
+  /*forth div*/
+  .fourth-div .div-head { font-size: 26px;}
+  .price-flex-wrapper {flex-direction: column;}
+  .price-flex {margin: 10px 0px;}
+  .amount-box {flex-direction: column;}
+  .mint-button {font-size: 19px;line-height: 25px;padding: 3px 29px;}
+  .amount-tag {font-size: 20px;line-height: 30px;}
+  .amount-tag-max {font-size: 17px;line-height: 30px;padding: 6px 17px;}
+  .amount-input {margin: 15px 10px;font-size: 26px;}
+  .amount-icon {width: 35px;height: 35px;font-size: 28px;line-height: 61px;}
+  /*fifth div*/
+  .fifth-div-tag {font-size: 21px;}
+  .fifth-margin {margin: 0 0 40px !important;}
+  /*sixth div*/
+  .sixth-tag {font-size: 24px;}
+  .sixth-small-tag {font-size: 15px;}
+  .sixth-url {font-size: 15px;}
+  .sixth-div {margin-top: 20px;}
+   /*seventh div*/
+   .back-mint-button {font-size: 16px;padding: 2px 27px;}
+   .form-control {width: 100%;}
+}
+@media screen and (max-width: 319px) {
+  .timer {border-radius: 38px;}
+  #countdown ul li span {font-size: 29px;line-height: unset;}
+  .connect-button {font-size: 15px;padding: 5px 24px;}
+  /*second page*/
+  .change-content-wrapper .head {font-size: 30px;}
+  .placeholder-image {height: 270px;}
+  .change-content-wrapper {height: auto; min-height: 270px;padding: 20px 0px;}
+  .second-span {font-size: 14px;}
+  /*fifth div*/
+  .fifth-div-tag {font-size: 18px;}
+  .fifth-margin {margin: 0 0 19px !important;}
+  .loader-img img {width: 30%;}
+}
